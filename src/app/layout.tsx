@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/contextprovider/themeprovider";
 
 const fontTitle = Cormorant_Garamond({
   variable: "--font-title",
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["500", "600", "700"],
   style: ["italic", "normal"],
 })
 
