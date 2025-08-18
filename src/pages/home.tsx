@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const HomePage = () => {
     return (
-        <section className="home-page h-[100vh] w-[100vw] relative content-center">
+        <section id="home" className="home-page h-[100vh] w-[100vw] relative content-center">
             <div className="container-home-page m-3 p-1 place-items-center text-center">
                 <div className="home-herorelative">
                     <div className="home-hero-main relative">

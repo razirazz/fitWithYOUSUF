@@ -49,9 +49,8 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${fontBody.variable} ${fontTitle.variable} prefers-color-scheme: dark`}
-      >
-      <body>
+    <html lang="en" className={`${fontBody.variable} ${fontTitle.variable} scroll-smooth prefers-color-scheme: dark `} >
+      <body className="">
         <ThemeProvider>
 
           {children}

@@ -18,7 +18,7 @@ const CloseAndOpenMenu = () => {
     }
 
     return (
-        <div className="visible sm:hidden" onClick={openCloseToggle}>
+        <div className="visible md:hidden" onClick={openCloseToggle}>
             { openCloseIcon() }
             { isOpen && (
                 <div className="containernavlinksoverlay fixed top-18 pb-20 left-0 right-0 h-svh w-full content-center justify-items-center
