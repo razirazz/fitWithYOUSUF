@@ -54,7 +54,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="home-call-actions w-full h-fit p-2 flex
-                font-[--font-body] sm:gap-5 justify-center"> 
+                font-[--font-body] sm:gap-1 justify-center"> 
                     <ButtonIconLeft data="Explore Services" icon={ Search } type="secondary"/>
                     <ButtonIconRight data="Free Consultation" icon={ ArrowRight } type="primary"/>
                     
