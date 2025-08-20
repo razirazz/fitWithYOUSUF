@@ -2,7 +2,7 @@
 
 const BadgeCertifiedFitness = (props) => {
     return (
-        <div className="container-badge relative bottom-0 inset-x-0 pointer-events-none">
+        <div className="container-badge relative bottom-0 inset-x-0 pointer-events-none flex justify-center">
             {/* <div className="badge-border place-self-center">
                 
             </div> */}

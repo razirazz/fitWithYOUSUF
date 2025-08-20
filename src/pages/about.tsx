@@ -2,7 +2,7 @@
 
 const AboutPage = () => {
     return (
-        <section id="about" className="">
+        <section id="about" className="h-[100vh]">
             Hello
         </section>
     )

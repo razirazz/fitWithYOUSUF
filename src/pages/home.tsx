@@ -12,7 +12,7 @@ const HomePage = () => {
             <div className="container-home-page m-3 p-1 place-items-center text-center">
                 <div className="home-herorelative">
                     <div className="home-hero-main relative">
-                        <span className="home-hero-image">
+                        <span className="home-hero-image flex justify-center z-10">
                             <Image 
                                 className="rounded-t-full mask-b-from-40% mask-b-to-90% justify-self-center"
                                 src={heroPic} 
@@ -23,25 +23,25 @@ const HomePage = () => {
                         </span>
                         <BadgeCertifiedFitness data="Certified Fitness Trainer" />
                     </div>
-                    <div className="home-hero-content place-items-center pointer-events-none">
-                        <div className="home-content-main text-3xl m-3">
+                    <div className="home-hero-content place-items-center pointer-events-none flex flex-col pt-3">
+                        <div className="home-content-main text-3xl m-3 dark:font-light sm:text-4xl sm:w-[50vw]">
                             Transform Your&nbsp;
-                            <span className="font-bold">
+                            <span className="font-bold sm:font-extrabold">
                                 Body
                             </span>, 
                             Transform Your&nbsp; 
-                            <span className="font-bold">
+                            <span className="font-bold sm:font-extrabold">
                                 Life
                             </span>
                             &nbsp;with &nbsp;
-                            <span className="text-(--highlight-color) font-extrabold">
+                            <span className="text-(--highlight-color) font-extrabold sm:font-black">
                                 Yousuf Ali
                             </span>
                         </div>
-                        <div className="home-content-body font-[--font-body] text-[14px] font-light ">
+                        <div className="home-content-body font-[--font-body] text-[14px] sm:text-[16px] dark:font-light sm:w-[70vw]">
                             <p className="tracking-wider leading-[1.7] p-2">
                                 Welcome to the official website of&nbsp;&nbsp;
-                                <span className="font-semibold italic text-[16px]">Yousuf Ali</span>, 
+                                <span className="font-semibold italic text-[16px] sm:text-[17px]">Yousuf Ali</span>, 
                                 Level 4 Certified Personal Trainer 
                                 with over 8 years of experience 
                                 transforming lives through tailored fitness 
@@ -53,8 +53,8 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="home-call-actions w-full h-fit p-2
-                align-middle font-[--font-body]"> 
+                <div className="home-call-actions w-full h-fit p-2 flex
+                font-[--font-body] sm:gap-5 justify-center"> 
                     <ButtonIconLeft data="Explore Services" icon={ Search } type="secondary"/>
                     <ButtonIconRight data="Free Consultation" icon={ ArrowRight } type="primary"/>
                     
