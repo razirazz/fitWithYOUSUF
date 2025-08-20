@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
     return (
-        <section id="about" className="h-[95vh] w-[100vw] z-5">
+        <section id="about" className="h-[95vh] w-[100vw] z-5 pointer-events-none">
             <div className="about-container flex flex-col sm:flex-row gap-5 justify-center h-[90vh] w-[90vw]
                             justify-self-center place-items-center">
                 <div className="hero-image z-5 sm:basis-auto">
