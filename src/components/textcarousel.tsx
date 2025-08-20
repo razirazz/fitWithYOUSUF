@@ -1,8 +1,10 @@
 'use client';
 
+
 const TextCarousel = (props) => {
+ 
     return (
-        <div>
+        <div className="">
             {props.data}
         </div>
     )

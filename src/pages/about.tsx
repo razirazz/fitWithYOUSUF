@@ -36,7 +36,7 @@ const AboutPage = () => {
                             educating, motivating, and creating 
                             sustainable habits that fit your lifestyle.
                         </div>
-                        <div>
+                        <div className="">
                             <TextCarousel data="Level 4 Certified Personal Trainer" /> 
                             <TextCarousel data="Track record of client transformations and satisfaction" />
                             <TextCarousel data="Specialist in strength & conditioning, weight loss, and rehab" />
