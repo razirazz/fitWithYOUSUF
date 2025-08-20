@@ -38,10 +38,10 @@ const HomePage = () => {
                                 Yousuf Ali
                             </span>
                         </div>
-                        <div className="home-content-body font-[--font-body] text-[14px] sm:text-[16px] dark:font-light sm:w-[70vw]">
+                        <div className="home-content-body font-[--font-body] text-sm sm:text-md dark:font-light sm:w-[70vw]">
                             <p className="tracking-wider leading-[1.7] p-2">
                                 Welcome to the official website of&nbsp;&nbsp;
-                                <span className="font-semibold italic text-[16px] sm:text-[17px]">Yousuf Ali</span>, 
+                                <span className="font-semibold italic text-md sm:text-lg sm:font-medium">Yousuf Ali</span>, 
                                 Level 4 Certified Personal Trainer 
                                 with over 8 years of experience 
                                 transforming lives through tailored fitness 
