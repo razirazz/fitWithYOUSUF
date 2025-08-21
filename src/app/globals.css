@@ -148,6 +148,34 @@ html, body {
   animation: borderAnimation 4s linear infinite;
 }
 
+@keyframes textGlazeRotate {
+  0% {
+    /* background-position: 0 0; */
+    transform: rotate(0deg);
+  }
+  100% {
+    /* background-position: 100% 0; */
+    transform: rotate(360deg);
+  }
+}
+
+.animate-glaze-rotate {
+  transform: translate(0);
+  animation: textGlazeRotate 5s linear forwards infinite;
+}
+
+@keyframes textGlazeLinear {
+  to {
+    background-position-x: 0%;
+  }
+}
+
+.animate-glaze-linear {
+  background-size: 200%;
+  background-position-x: 100%;
+  animation: textGlazeLinear 2s linear infinite;
+}
+
 /*
 
 @media screen and (min-width: 480px) {

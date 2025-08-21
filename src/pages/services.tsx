@@ -7,7 +7,7 @@ const ServicesPage = () => {
         <section id="services" className="h-auto w-[100vw] relative">
             <div className="services-container h-auto flex flex-col p-3 relative">
                 <div className="services-head h-[50vh] flex flex-col justify-center items-center gap-3 relative">
-                    <div className="service-title text-2xl sm:text-3xl flex gap-1">
+                    <div className="service-title text-2xl sm:text-3xl flex gap-1.5 items-baseline">
                         Custom 
                         <span className="text-lg sm:text-2xl"><TextEmphasize data="Coaching" /> </span>
                         for 
