@@ -1,7 +1,7 @@
 'use client';
 
 import BadgeCertifiedFitness from "@/components/badgefitness";
-import { ButtonIconLeft, ButtonIconRight } from "@/components/button";
+import { ButtonIconLeft, ButtonIconLeftLink, ButtonIconRight, ButtonIconRightLink } from "@/components/button";
 import heroPic from "@/public/assets/ui/hero-pic.jpg"
 import { ArrowRight, Search } from "lucide-react";
 import Image from "next/image";
@@ -55,8 +55,8 @@ const HomePage = () => {
                 </div>
                 <div className="home-call-actions w-full h-fit p-2 flex
                 font-[--font-body] sm:gap-1 justify-center"> 
-                    <ButtonIconLeft data="Explore Services" icon={ Search } type="secondary"/>
-                    <ButtonIconRight data="Free Consultation" icon={ ArrowRight } type="primary"/>
+                    <ButtonIconLeftLink data="Explore Services" link="/#services" icon={ Search } type="secondary"/>
+                    <ButtonIconRightLink data="Free Consultation" link="none" icon={ ArrowRight } type="primary"/>
                     
                 </div>
             </div>
